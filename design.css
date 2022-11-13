@@ -467,3 +467,28 @@ font-family: 'Square Peg', cursive; */
     }
 }
 
+@media(max-width:414px ){
+.dark-mode{
+    top: 100px;
+    left: 350px;
+}
+}
+@media(max-height:736px){
+
+.header{
+    height: 150px;
+}
+
+
+.info-box1,.info-box2,.info-box4,.info-box5{
+    height: 115px;
+    width: 115px;
+}
+.info-box3{
+    height: 250px;
+    width: 130px;
+}
+.contact-bt{
+    bottom: 10px;
+}
+}
