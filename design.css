@@ -466,7 +466,7 @@ font-family: 'Square Peg', cursive; */
         transform: translate(0,0);
     }
 }
-
+/* ip6,7,8plus*/
 @media(max-width:414px ){
 .dark-mode{
     top: 100px;
@@ -492,3 +492,58 @@ font-family: 'Square Peg', cursive; */
     bottom: 10px;
 }
 }
+/* ip6,7,8 */
+
+@media(max-width:375px){
+    .dark-mode{
+        left: 320px;
+    }
+    .title1{
+        font-size: 28px;
+    }
+}
+@media(max-height:667px){
+
+    .header{
+        height: 150px;
+    }
+    
+    
+    .info-box1,.info-box2,.info-box4,.info-box5{
+        height: 105px;
+        width: 105px;
+        padding-top: 30px;
+    }
+    .info-box3{
+        height: 235px;
+        width: 110px;
+    }
+    .contact-bt{
+        bottom: 10px;
+    }
+}
+/* ip X*/
+@media(max-width:414px){
+    .dark-mode{
+        left: 330px;
+    }
+
+}
+@media(max-height:896px){
+
+    .header{
+        height: 200px;
+    }
+    
+    
+    .info-box1,.info-box2,.info-box4,.info-box5{
+        height: 110px;
+        width: 110px;
+        padding-top: 30px;
+    }
+    .info-box3{
+        height: 245px;
+        width: 100px;
+    }
+
+ }
