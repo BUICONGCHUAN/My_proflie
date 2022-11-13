@@ -476,7 +476,7 @@ font-family: 'Square Peg', cursive; */
 @media(max-height:736px){
 
 .header{
-    height: 150px;
+    height: 180px;
 }
 
 
@@ -488,9 +488,10 @@ font-family: 'Square Peg', cursive; */
     height: 250px;
     width: 130px;
 }
-.contact-bt{
-    bottom: 10px;
+.last{
+    bottom: 0px;
 }
+
 }
 /* ip6,7,8 */
 
@@ -522,28 +523,30 @@ font-family: 'Square Peg', cursive; */
         bottom: 10px;
     }
 }
-/* ip X*/
+/* ip XsMAX*/
 @media(max-width:414px){
     .dark-mode{
-        left: 330px;
+        left: 350px;
     }
 
 }
 @media(max-height:896px){
 
     .header{
-        height: 200px;
+        height: 190px;
     }
     
     
     .info-box1,.info-box2,.info-box4,.info-box5{
-        height: 110px;
-        width: 110px;
+        height: 120px;
+        width: 120px;
         padding-top: 30px;
     }
     .info-box3{
-        height: 245px;
-        width: 100px;
+        height: 265px;
+        width: 120px;
     }
-
- }
+    .contact-bt{
+        bottom: 10px;
+    }
+}
